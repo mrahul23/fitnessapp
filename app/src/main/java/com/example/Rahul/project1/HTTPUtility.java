@@ -16,9 +16,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.UnknownHostException;
 
-/**
- * Revised by kevin on 3/9/2016.
- */
+
 public class HTTPUtility {
 
     // Download an image using HTTP Get Request

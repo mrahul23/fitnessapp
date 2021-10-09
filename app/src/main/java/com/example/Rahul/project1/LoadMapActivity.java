@@ -6,7 +6,7 @@ import android.location.Address;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
@@ -15,9 +15,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-/**
- * Created by maddi on 4/11/2016.
- */
+
+
 public class LoadMapActivity extends AppCompatActivity {
 
     public final int PICK_CONTACT = 2015;

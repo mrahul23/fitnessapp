@@ -1,7 +1,7 @@
 package com.example.Rahul.project1;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -49,8 +49,8 @@ public class Fragment1 extends Fragment implements YouTubePlayer.OnInitializedLi
         mVideoId1 = getString(R.string.tab1VideoID);
         Log.d("mVideoId1 is ", mVideoId1);
 
-        playerFragment1 = (YouTubePlayerSupportFragment) getChildFragmentManager().findFragmentById(R.id.moviePlayer1);
-        playerFragment1.setUserVisibleHint(true);
+        //playerFragment1 = (YouTubePlayerSupportFragment) getChildFragmentManager().findFragmentById(R.id.moviePlayer1);
+       // playerFragment1.setUserVisibleHint(true);
 
         return rootView1;
     }

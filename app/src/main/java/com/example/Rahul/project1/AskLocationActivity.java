@@ -5,7 +5,7 @@ import android.location.Address;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.ResultReceiver;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -13,11 +13,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-//import com.google.android.gms.location.places.AutocompleteFilter;
-//import com.google.android.gms.location.places.Place;
-//import com.google.android.gms.location.places.ui.PlaceAutocomplete;
-//import com.google.android.gms.location.places.ui.PlaceAutocompleteFragment;
-//import com.google.android.gms.location.places.ui.PlaceSelectionListener;
+import com.google.android.gms.location.places.AutocompleteFilter;
+import com.google.android.gms.location.places.Place;
+import com.google.android.gms.location.places.ui.PlaceAutocomplete;
+import com.google.android.gms.location.places.ui.PlaceAutocompleteFragment;
+import com.google.android.gms.location.places.ui.PlaceSelectionListener;
 
 import java.util.Locale;
 
@@ -55,10 +55,10 @@ public class AskLocationActivity extends AppCompatActivity {
         });
 
         // Send Data to LoadMapActivity Lat and Long
-        /*Intent intent = null;
+        Intent intent = null;
         intent.putExtra("Latitude",address1.getLatitude());
         intent.putExtra("Longitude",address1.getLongitude());
-        startActivity(intent);*/
+        startActivity(intent);
         // placename = (TextView) findViewById(R.id.place_name);
 
         /* ---- Auto Complete Search for Google Maps ---- */

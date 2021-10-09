@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:largeHeap="true"
         android:theme="@style/AppTheme"
-        android:name="android.support.multidex.MultiDexApplication">
+        android:name="androidx.multidex.MultiDexApplication">
         <!-- Youtube -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
