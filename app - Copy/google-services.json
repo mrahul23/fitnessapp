@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1040641017528",
+    "firebase_url": "https://fitness-35a06-default-rtdb.firebaseio.com",
+    "project_id": "fitness-35a06",
+    "storage_bucket": "fitness-35a06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040641017528:android:c6d122327d692e7c6d564d",
+        "android_client_info": {
+          "package_name": "com.example.Rahul.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040641017528-ojeas1652re559cam4vhnu03krr4cmen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Rahul.project1",
+            "certificate_hash": "a41152204b771f07eadbff85cd95d118b0a6da07"
+          }
+        },
+        {
+          "client_id": "1040641017528-h3qm82orgtmhgajti8viocjnf8da0h04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8fWjgW5AGmRAcqLWzzBChQEvS6YHnRi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040641017528-h3qm82orgtmhgajti8viocjnf8da0h04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040641017528:android:145412d89c1ebdbc6d564d",
+        "android_client_info": {
+          "package_name": "com.example.maddi.fitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040641017528-h3qm82orgtmhgajti8viocjnf8da0h04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8fWjgW5AGmRAcqLWzzBChQEvS6YHnRi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040641017528-h3qm82orgtmhgajti8viocjnf8da0h04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
